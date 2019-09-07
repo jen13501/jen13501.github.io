@@ -1,0 +1,103 @@
+
+body {
+	font-size: 10.5pt;
+	line-height: 1.75em;
+	font-family: Arial, sans-serif;
+	color: #362921;
+}
+	
+h2,h3,h4 {
+	font-weight: normal;
+	margin-bottom: 1em;
+	font-family: "PT Sans Narrow", sans-serif;
+}
+
+h4 {
+	text-transform: lowercase;
+	color: #82c2a2;
+}
+
+h1 {
+	text-align: center;
+	position: relative;
+	margin: -5px auto;
+	height: 98px;
+	line-height: 98px;
+	font-size: 3.25em;
+	font-family: Lobster, cursive;
+}
+	
+a {
+	color: #362921;
+	text-decoration: underline;
+}
+	
+/* mouse over link */
+a:hover {
+	color: #362921;
+	text-decoration: none;
+}
+	
+a.reverse {
+	text-decoration: none;
+}
+	
+a.reverse:hover {
+	text-decoration: underline;
+}
+
+a.btn-email {
+	color: #362921;
+	border: 3px solid #383939;
+	font-weight: bold;
+	margin-bottom: 25px;
+}
+
+i {
+	color: #362921;
+}
+	
+li {
+	list-style-type: square;
+}
+
+div.contact {
+	background: #82c2a2;
+	padding: 20px;
+}
+
+div.content {
+	padding: 20px;
+}
+
+div.copyright {
+	background: #82c2a2;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+img.profile{
+	width: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@media (min-width: 768px) {
+	div.contact {
+		position: relative;
+		padding: 0px;
+		padding-top: 20px;
+	}
+
+	div.fixed-md {
+		position: fixed;
+	}
+
+	div.footer-md {
+		position: fixed;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+	}
+}

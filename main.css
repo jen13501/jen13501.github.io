@@ -92,6 +92,8 @@ img.profile{
 
 	div.fixed-md {
 		position: fixed;
+		padding-left: 20px;
+		padding-right: 20px
 	}
 
 	div.footer-md {
